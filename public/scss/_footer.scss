@@ -1,0 +1,134 @@
+.footer {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 30px 0px;
+  // .footer__container
+  &__container {
+  }
+  // .footer__top-menu
+  &__top-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  // .footer__contacts
+  &__contacts {
+    color: #292a2f;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  // .footer__number
+  &__number {
+    margin-bottom: 20px;
+  }
+  // .footer__link
+  &__link {
+    color: #228f82;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: block;
+    text-decoration: underline;
+  }
+  // .footer__media
+  &__media {
+    display: flex;
+    a {
+      font-size: 30px;
+      color: #292a2f;
+      display: block;
+      margin-right: 10px;
+    }
+  }
+  // .footer__links
+  &__links {
+    padding: 0px 15px;
+    margin-bottom: 20px;
+
+    // .footer__links_double-row
+    &_double-row {
+      ul {
+        column-count: 2;
+      }
+    }
+    ul {
+      li {
+        margin-bottom: 10px;
+        max-width: 200px;
+        min-width: 150px;
+        margin-right: 10px;
+        a {
+          color: #292a2f;
+          line-height: 1.2;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  // .footer__links-title
+  &__links-title {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: 500;
+  }
+  // .footer__app-link
+  &__app-link {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  // .footer__app-link-app
+  &__app-link-app {
+    display: flex;
+    justify-content: space-between;
+    a {
+      width: 47%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__app-card {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: center;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    a {
+      max-width: 50%;
+      padding-right: 10px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  // .footer__bot
+  &__bot {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  // .footer__bot-title
+  &__bot-title {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: $md2 + 'px') {
+    &__links {
+      padding-left: 0;
+      &_double-row {
+        ul {
+          column-count: 1;
+        }
+      }
+    }
+  }
+}

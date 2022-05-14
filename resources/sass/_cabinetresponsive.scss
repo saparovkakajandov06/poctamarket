@@ -1,0 +1,110 @@
+@media only all and (max-width: 1314px) {
+    .right-side-div-content {
+        width: unset;
+        justify-content: space-evenly;
+
+        .right-side-div-card {
+            width: 100%;
+            height: 112px;
+        }
+
+        a.right-side-div-card.smaller-card-1 {
+            width: 100%;
+        }
+    }
+    .left-side-div {
+        width: 23%;
+    }
+    .right-side-div {width: 70%;}
+    a.right-side-div-card.smaller-card-1.ads-banner-12 {
+        width: 266px;
+        height: 170px;
+    }
+}
+
+@media only all and (max-width: 1024px) {
+    .for-mobile-history-4496 {display: block;}
+    .table-in-history-2 {display: none;}
+    .right-side-div-history {
+        width: 90%;
+    }
+    
+    .input-conatiner-1, .input-conatiner-2 {
+        width: 100%;
+    }
+    .left-side-div {
+        display: none;
+    }
+
+    .right-side-div-content {
+        padding-right: 0;
+    }
+
+    .left-side-div-menu.d-flex.column {display: none;}
+
+    .cabinet-content {
+        flex-direction: column;
+        margin-top: 17px;
+        align-items: center;
+    }
+    
+    .left-side-div h2, .left-side-div p {text-align: center;}
+}
+
+@media only all and (max-width: 637px) {
+    .history-for-mobile-1 {
+        display: block;
+    }
+    .right-side-div-content-for-big-devices-1 table {display: none;}
+}
+@media only all and (max-width: 582px) {
+    .cabinet-header {
+        flex-direction: column;
+        align-items: center;
+
+        .cabinet-menu {
+            left: 0;
+            top: 160px;
+        }
+
+        h2 {
+            justify-content: center;
+        }
+
+        .cabinet-header-number-phone {
+            flex-direction: column;
+
+            .cabinet-header-icon {
+                margin-top: 24px;
+            }
+        }
+    }
+}
+@media only all and (max-width: 425px) {
+    
+    
+    
+    .right-side-div {
+        
+
+        .right-side-div-card {
+            width: 85%;
+            height: 82px;
+            margin: 16px;
+
+            h2 {
+                padding: 6px 0 0 24px;
+            }
+        }
+    }
+    .left-side-div-menu {display: none;}
+    
+    .input-conatiner-1, .input-conatiner-2 {
+        width: 100%;
+        padding-right: 16px;
+    }
+}
+
+@media only all and (max-width: 375px) {
+    
+}
